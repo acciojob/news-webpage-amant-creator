@@ -1,16 +1,88 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+<meta charset="UTF-8">
+<title>Shaw's News</title>
+<style>
+  body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
 
+  .header {
+    background-color: #011e29;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+
+  .latest-news-section, .main-article, .pictorial-news-section {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+  }
+
+  .latest-news-section {
+    width: 20%;
+  }
+
+  .latest-news-section ul {
+    padding-left: 20px;
+  }
+
+  .main-article {
+    width: 50%;
+  }
+
+  .pictorial-news-section {
+    width: 20%;
+    text-align: center;
+  }
+
+  .pictorial-news-section img {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+
+</style>
+</head>
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+<header class="header">
+  <h2>Shaw's News</h2>
+</header>
+
+<div class="container">
+  <div class="latest-news-section">
+    <h3>Latest News Articles</h3>
+    <ul>
+      <li>Article 1</li>
+      <li>Article 2</li>
+      <li>Article 3</li>
+    </ul>
+  </div>
+
+  <div class="main-article">
+    <h3>Main Article</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor magna, eu fringilla malesuada, ipsum sed luctus euismod, non fringilla quam augue euismod eros. Sed mattis neque, eu fringilla malesuada, ipsum risus euismod eros, non fringilla quam augue euismod eros.</p>
+  </div>
+
+  <div class="pictorial-news-section">
+    <h3>Pictorial News</h3>
+    <img src="Image_one" alt="Image One">
+    <img src="Image_two" alt="Image Two">
+    <img src="Image_three" alt="Image Three">
+  </div>
+</div>
 
 </body>
-
 </html>
