@@ -1,88 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Shaw's News</title>
-<style>
-  body {
-    background-color: #f5f5f5;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-
-  .header {
-    background-color: #011e29;
-    color: white;
-    text-align: center;
-    padding: 15px 0;
-  }
-
-  .container {
-    display: flex;
-    justify-content: space-around;
-    padding: 20px;
-  }
-
-  .latest-news-section, .main-article, .pictorial-news-section {
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header{
+            background-color: #011e29;
+			height:80px;
+        }
+        header>h2{
+            color: white;
+            text-align: center;
+			font-family:arial;
+			padding:20px;
+        }
+        body{
+            background-color: #f5f5f5;
+        }
+        .first{
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+        }
+        .latest-news-section, .main, .pictorial-news-section {
     background-color: white;
     padding: 15px;
     border-radius: 8px;
   }
+        .latest-news-section{
+            text-align: center;
+            border-radius: 8px;
+            padding: 15px;
+            /* width: auto; */
+            /* background-color: whitesmoke; */
 
-  .latest-news-section {
-    width: 20%;
-  }
-
-  .latest-news-section ul {
-    padding-left: 20px;
-  }
-
-  .main-article {
-    width: 50%;
-  }
-
-  .pictorial-news-section {
-    width: 20%;
-    text-align: center;
-  }
-
-  .pictorial-news-section img {
-    width: 100%;
-    margin-bottom: 10px;
-    border-radius: 4px;
-  }
-
-</style>
+        }
+        .latest-news-section ul{
+            padding-left: 20%;
+        }
+        .main{
+            text-align: center;
+            width: 50%;
+        }
+        .pictorial-news-section{            
+            width: 20%;
+            text-align: center;
+            /* border-radius: 5px; */
+        }
+        .pictorial-news-section  img{
+            width: 100%;
+            margin-bottom: 10px;
+            border-radius: 4px;            
+        }
+    </style>
 </head>
 <body>
-
-<header class="header">
-  <h2>Shaw's News</h2>
-</header>
-
-<div class="container">
-  <div class="latest-news-section">
-    <h3>Latest News Articles</h3>
-    <ul>
-      <li>Article 1</li>
-      <li>Article 2</li>
-      <li>Article 3</li>
-    </ul>
-  </div>
-
-  <div class="main-article">
-    <h3>Main Article</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor magna, eu fringilla malesuada, ipsum sed luctus euismod, non fringilla quam augue euismod eros. Sed mattis neque, eu fringilla malesuada, ipsum risus euismod eros, non fringilla quam augue euismod eros.</p>
-  </div>
-
-  <div class="pictorial-news-section">
-    <h3>Pictorial News</h3>
-    <img src="Image_one" alt="Image One">
-    <img src="Image_two" alt="Image Two">
-    <img src="Image_three" alt="Image Three">
-  </div>
+    <header class="header">
+        <h2>Shaw's Article</h2>
+    </header>
+    <div class="first">
+    <div class="latest-news-section">
+        <h3>Latest News Articles</h3>
+        <ul>
+            <li>Article 1</li>
+            <li>Article 2</li>
+            <li>Article 3</li>
+            
+    </div>
+<div class="main">
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure fugit itaque vel praesentium nam magni hic cupiditate dignissimos est culpa!</p>
 </div>
-
+    <div class="pictorial-news-section">
+        <h3>Pictorial News</h3>
+        <img src="https://images.hindustantimes.com/img/2023/01/29/550x309/delhi_rains_1674974112847_1674981888135_1674981888135.jpeg" alt="img1">
+        <img src="https://images.hindustantimes.com/img/2023/01/29/550x309/ADANI-INDIA-GAUTAM-ADANI-0_1675011651023_1675011651023_1675011672003_1675011672003.JPG" alt="img2">
+        <img src="https://images.hindustantimes.com/img/2023/01/29/550x309/FRANCE-REFORM-PENSIONS-31_1675022359706_1675022359706_1675022383851_1675022383851.JPG" alt="img3">
+    
+    </div>
+</div>
 </body>
 </html>
